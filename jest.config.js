@@ -27,7 +27,7 @@ module.exports = {
         "!**/node_modules/**",
         "!**/vendor/**"
     ],
-    coverageDirectory: '<rootDir>/src/target/reports',
+    coverageDirectory: '<rootDir>/target/reports',
     moduleFileExtensions: [
         "ts",
         "tsx",
