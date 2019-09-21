@@ -3,7 +3,7 @@ import SearchBar from './components/searchBar';
 import Header from './components/header';
 import VideoList from "./containers/videoListContainer";
 import VideoPlayer from './containers/videoPlayerContainer';
-import './App.css';
+// import './App.css';
 
 class App extends Component {
   

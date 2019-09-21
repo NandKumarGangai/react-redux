@@ -3,9 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@types/enzyme": "^3.10.3",
+    "@types/jest": "^24.0.18",
+    "@types/node": "^12.7.5",
+    "@types/react": "^16.9.2",
+    "@types/react-dom": "^16.9.0",
     "axios": "^0.18.1",
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3",
+    "babel-preset-es2016": "^6.24.1",
+    "babel-preset-trigen": "^2.2.2",
+    "core-js": "^3.2.1",
+    "jest-css-modules": "^2.1.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
     "react-html5video": "^2.5.1",
     "react-moment": "^0.8.4",
     "react-player": "^1.7.0",
@@ -17,12 +26,15 @@
     "redux-thunk": "^2.3.0",
     "reselect": "^4.0.0",
     "serve": "^10.1.2",
+    "ts-jest": "^24.1.0",
+    "typescript": "^3.6.3",
     "video-react": "^0.13.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "testx": "SET NODE_ENV=test jest --config ./src/jest.config.js --env=jsdom --updateSnapshot",
+    "test": "jest --config ./jest.config.js --coverage",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -33,5 +45,15 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "babel-jest": "^23.6.0",
+    "babel-preset-jest": "^24.9.0",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "enzyme-to-json": "^3.4.0",
+    "jest": "^23.6.0",
+    "react-test-renderer": "^16.9.0"
+  }
 }
