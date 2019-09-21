@@ -17,14 +17,14 @@ export class CheckboxWithLabel extends React.Component<{
 
   render() {
     return (
-      <label>
+      <div>
         <input
           type="checkbox"
           checked={this.state.isChecked}
           onChange={this.onChange}
         />
         {this.state.isChecked ? this.props.labelOn : this.props.labelOff}
-      </label>
+      </div>
     );
   }
 }
