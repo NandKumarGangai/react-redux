@@ -5,7 +5,7 @@ const mapStateToProps = state => ({
   video: state.videoToPlay
 });
 
-const mapDispatchToProps = dispatch => ({});
+const mapDispatchToProps = () => ({});
 
 export default connect(
   mapStateToProps,
