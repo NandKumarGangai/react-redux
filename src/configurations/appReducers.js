@@ -1,4 +1,4 @@
-import { items, videoToPlay, requestStatus } from "../reducers/reducer";
+import { items, videoToPlay, requestStatus } from "../app/reducers/reducer";
 
 const appReducers = {
     items,

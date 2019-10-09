@@ -1,6 +1,7 @@
 import React from "react";
-import { searchQuery } from "../actions/actions";
 import { connect } from "react-redux";
+import { searchQuery } from "../actions/actions";
+
 const SearchBar = ({ dispatch }) => {
   let input;
   return (
