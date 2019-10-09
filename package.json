@@ -26,8 +26,6 @@
     "redux-thunk": "^2.3.0",
     "reselect": "^4.0.0",
     "serve": "^10.1.2",
-    "ts-jest": "^24.1.0",
-    "typescript": "^3.6.3",
     "video-react": "^0.13.1"
   },
   "scripts": {

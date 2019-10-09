@@ -17,7 +17,7 @@ module.exports = {
     ],
     transform: {
         '^.+\\.(js|jsx|mjs)$': '<rootDir>/node_modules/babel-jest',
-        "^.+\\.(ts|tsx)$": "<rootDir>/node_modules/ts-jest"
+        // "^.+\\.(ts|tsx)$": "<rootDir>/node_modules/ts-jest"
     },
     testPathIgnorePatterns: [
         'node_modules'
@@ -27,7 +27,7 @@ module.exports = {
         "!**/node_modules/**",
         "!**/vendor/**"
     ],
-    coverageDirectory: '<rootDir>/target/reports',
+    coverageDirectory: '<rootDir>/coverage/reports',
     moduleFileExtensions: [
         "ts",
         "tsx",
@@ -40,18 +40,18 @@ module.exports = {
     snapshotSerializers: [
         "enzyme-to-json/serializer"
     ],
-    globals: {
-        'ts-jest': {
-            babelConfig: {
-                presets: [
-                    [
-                        'babel-preset-trigen',
-                        {
-                            commonjs: true
-                        }
-                    ]
-                ]
-            }
-        }
-    }
+    // globals: {
+    //     'ts-jest': {
+    //         babelConfig: {
+    //             presets: [
+    //                 [
+    //                     'babel-preset-trigen',
+    //                     {
+    //                         commonjs: true
+    //                     }
+    //                 ]
+    //             ]
+    //         }
+    //     }
+    // }
 };
