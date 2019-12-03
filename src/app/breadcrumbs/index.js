@@ -13,10 +13,17 @@ export default function SimpleBreadcrumbs() {
     return (
         <>
             <nav>
+                <ol>
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/breadcrumb">BreadCrumb</Link></li>
+                    <li><Link to="/youtube">YouTube</Link></li>
+                </ol>
+            </nav>
+            <nav>
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><Link to="/">Home</Link></li>
-                    <li class="breadcrumb-item"><Link to="/breadcrumb">Products</Link></li>
-                    <li class="breadcrumb-item"><Link to="/youtube">Accessories</Link></li>
+                    <li class="breadcrumb-item active"><a href="#breadcrumb-0">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#breadcrumb-1">Products</a></li>
+                    <li class="breadcrumb-item"><a href="#breadcrumb-2">Accessories</a></li>
                 </ol>
             </nav>
             {Breadcrumbs}
