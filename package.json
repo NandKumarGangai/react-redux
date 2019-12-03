@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.7.1",
     "@types/enzyme": "^3.10.3",
     "@types/jest": "^24.0.18",
     "@types/node": "^12.7.5",
@@ -19,6 +20,7 @@
     "react-moment": "^0.8.4",
     "react-player": "^1.7.0",
     "react-redux": "^5.1.1",
+    "react-router-dom": "^5.1.2",
     "react-scripts": "2.1.1",
     "redux": "^4.0.1",
     "redux-devtools-extension": "^2.13.7",
