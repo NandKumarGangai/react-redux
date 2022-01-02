@@ -9,7 +9,7 @@
     "@types/node": "^12.7.5",
     "@types/react": "^16.9.2",
     "@types/react-dom": "^16.9.0",
-    "axios": "^0.21.1",
+    "axios": "^0.21.2",
     "babel-preset-es2016": "^6.24.1",
     "babel-preset-trigen": "^2.2.2",
     "core-js": "^3.2.1",
